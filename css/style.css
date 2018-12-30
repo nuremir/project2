@@ -1,5 +1,38 @@
+html {
+    background-color: #fff;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background: linear-gradient(0deg, #D4145A, #FBB03B);
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rocket-web {
+    background-color: #fff;
+    width: 700px;
+    height: 400px;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.rocket-container {
+
+}
+
+.rocket-menu {
+    text-transform: uppercase;
+    display: inline;
+    
+}
+
+.rocket-menu a {
+    color: #838383;
+    text-decoration: none;
 }
