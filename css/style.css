@@ -56,9 +56,16 @@ body {
 
 /* BANNERS */
 
+.banners {
+    border: 1px solid red;
 
+}
 
-
+.left-banner {
+    border: 1px solid green;
+    display: flex;
+    
+}
 
 
 
