@@ -1,5 +1,5 @@
 html {
-    background-color: #fff;
+    background-color: #000;
 }
 
 /* CONATINER */
@@ -7,7 +7,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(0deg, #D4145A, #FBB03B);
+    background: linear-gradient(0deg, #f1534f, #FBB03B);
     width: 800px;
     height: 600px;
     position: absolute;
@@ -19,7 +19,7 @@ body {
 .rocket-web {
     background-color: #fff;
     width: 700px;
-    height: 400px;
+    height: 450px;
     margin-top: 75px;
     margin-left: 50px;
 }
@@ -57,22 +57,83 @@ body {
 /* BANNERS */
 
 .banners {
-    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+    min-width: 600px;
+    min-height: 350px;;
+    margin-left: 50px;
+    display: flex;
+}
 
+.web-banner {
+    margin-left: 50px;
 }
 
 .left-banner {
-    border: 1px solid green;
     display: flex;
-    
+    width: 50%;
 }
 
+.banner-text {
+    text-align: center;
+    background: linear-gradient(0deg, #f1534f, #FBB03B);
+    max-width: 180px;
+    height: 180px;
+}
 
+.web-banner h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
 
+.web-banner h2 {
+    font-size: 16px;
+    color: #838383;
+    margin-bottom: 30px;
+}
 
+.web-banner p {
+    font-size: 12px;
+    color: #fff;
+    padding-top: 20px;
+}
 
+.banner-batton {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none; 
+    width: 180px;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    background-color: #0f83fe;
+    display: inline-block;
+    margin-top: 20px;
+}
 
+.web-banner img {
+    display: inline;
+    margin-top: 10px;
+}
 
+.rigth-banner {
+    margin-top: 100px;
+    display: flex;
+    float: right;
+
+}
+
+.rocket {
+    width: 50%;
+    float: right;
+}
+
+.rocket img {
+    margin-left: 50px;
+}
 
 
 
