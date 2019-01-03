@@ -26,10 +26,6 @@ body {
 
 /* NAV */
 
-.rocket-container {
-
-}
-
 .rocket-menu {
     text-transform: uppercase;
     display: inline;
@@ -46,7 +42,6 @@ body {
 
 .menu img {
     margin-right: 16px;
-   
 }
 
 .menu-home {
@@ -64,18 +59,12 @@ body {
     min-width: 600px;
     min-height: 350px;;
     margin-left: 100px;
-    display: flex;
     width: 600px;
     height: 350px;
 }
 
 .web-banner {
     width: 230px;
-}
-
-.left-banner {
-    display: flex;
-    width: 50%;
     font-family: sans-serif;
 }
 
@@ -126,12 +115,6 @@ body {
 
 .rigth-banner {
     margin-top: 100px;
-    display: flex;
-    float: right;
-}
-
-.rocket {
-    width: 50%;
     float: right;
 }
 
